@@ -1,0 +1,3 @@
+var jsonData = JSON.parse(responseBody);
+var token = jsonData["access_token"];
+pm.collectionVariables.set('token1', jsonData.token);
